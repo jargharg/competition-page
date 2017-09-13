@@ -1,0 +1,35 @@
+.header {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    &__title {
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 10px;
+        font-weight: normal;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 0.3rem;
+
+        @mixin atMedium {
+            font-size: 1.6rem;
+            padding: 30px;
+            width: 40%;
+            color: white;
+            border: 3px solid white;
+            background-color: rgba(0, 0, 0, 0.4);
+            box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 10%;
+            left: 8%;
+        }
+
+        @mixin atLarge {
+            font-size: 2.5rem;
+        }
+    }
+    &__image {
+        z-index: 1;
+        width: 100%;
+    }
+}

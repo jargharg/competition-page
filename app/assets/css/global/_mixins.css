@@ -1,0 +1,17 @@
+$primary-color: #fd6141;
+$primary-color-d1: #d6462d;
+$primary-color-d2: #b02c1a;
+$bg-color: #f9f9f9;
+$text-color: #231f20;
+
+@define-mixin atLarge {
+    @media (min-width: 1000px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atMedium {
+    @media (min-width: 769px) {
+        @mixin-content;
+    }
+}

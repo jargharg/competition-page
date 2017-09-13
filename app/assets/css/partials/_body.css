@@ -1,0 +1,14 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Gill Sans MT", "Gill Sans", "Calibri", sans-serif;
+    background-color: #fdfdfd;
+    @mixin atMedium {
+        background-color: $bg-color;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}

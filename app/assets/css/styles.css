@@ -1,0 +1,7 @@
+@import "normalize.css";
+@import "./global/_mixins.css";
+@import "./partials/_body.css";
+@import "./partials/_header.css";
+@import "./partials/_container.css";
+@import "./partials/_content.css";
+@import "./partials/_form.css";
